@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #454442;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+@font-face {
+  font-family: "Merriweather-Regular";
+
+  src: local("Merriweather-Regular"),
+    url(./fonts/Merriweather-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "WorkSans-Regular";
+
+  src: local("WorkSans-Regular"),
+    url(./fonts/WorkSans-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "WorkSans-Bold";
+
+  src: local("WorkSans-Bold"), url(./fonts/WorkSans-Bold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Catamaran-Regular";
+
+  src: local("Catamaran-Regular"),
+    url(./fonts/Catamaran-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Catamaran-SemiBold";
+
+  src: local("Catamaran-SemiBold"),
+    url(./fonts/Catamaran-SemiBold.ttf) format("truetype");
+}

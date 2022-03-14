@@ -1,0 +1,35 @@
+table {
+  width: 60%;
+  margin: auto;
+  margin-top: 100px;
+  background-color: rgba(240, 240, 240, 0.26);
+  border-radius: 16px;
+  box-sizing: border-box;
+  border: 1px solid white;
+}
+
+.tableHeaderElement {
+  text-align: center;
+  color: #cfc7b2;
+}
+
+.tableDataElement {
+  border-right: 1px dashed white;
+  font-family: WorkSans-Bold;
+  color: white;
+  text-align: center;
+  padding: 20px 0px;
+  border-bottom: 1px dashed white;
+}
+
+tr.row td:last-child {
+  border-right: none;
+}
+
+tbody.body tr:first-child td {
+  border-top: 1px dashed white;
+}
+
+tbody.body tr:last-child td {
+  border-bottom: none;
+}

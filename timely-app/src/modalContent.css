@@ -1,0 +1,44 @@
+.modalWrapper {
+  background-color: #454442;
+}
+
+.modalTitle {
+  margin: 0px;
+  color: white;
+  width: calc(100% - 35px);
+  text-align: center;
+}
+
+.closeModalButton {
+  background-image: url("./close-modal.svg");
+  background-repeat: no-repeat;
+  background-color: transparent;
+  width: 35px;
+  height: 35px;
+  padding: 0px;
+  outline: none;
+  border: none;
+  align-self: flex-end;
+  cursor: pointer;
+}
+
+.modalHeaderWrapper {
+  display: flex;
+  border-bottom: 1px solid white;
+  padding-bottom: 5px;
+}
+
+.projectInput {
+  height: 50px;
+  font-family: WorkSans-Regular;
+  border-radius: 16px;
+  padding: 0px 16px;
+  font-size: 25px;
+}
+
+.inputLabel {
+  font-family: WorkSans-Regular;
+  font-size: 25px;
+  margin: 15px 0px;
+  color: white;
+}
